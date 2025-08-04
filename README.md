@@ -87,6 +87,10 @@ sample output  after deleteing duplicates
 
 <img width="743" height="382" alt="Screenshot 2025-08-04 140259" src="https://github.com/user-attachments/assets/858f7148-52d9-428b-9c1e-3dcae4e5b5e6" />
 
+after deleting duplicates from all the feed 1,2,3 i got duplicate find as zero
+<img width="498" height="207" alt="Screenshot 2025-08-04 143318" src="https://github.com/user-attachments/assets/b09a975f-2e90-4408-8b95-8e9f7a28a311" />
+
+
 
  
 
