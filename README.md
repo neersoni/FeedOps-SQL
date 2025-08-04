@@ -49,6 +49,6 @@ To make the SQL dynamic, I used PREPARE, EXECUTE, and DEALLOCATE PREPARE — thi
 
 ** NOTE - I HAVE ALSO ATTACHED SQL CODE FOR AUTOMATION IN FILES **
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* Requirement 3 & 4: Detecting Duplicates Using SQL Queries
+ # Requirement 3 & 4: Detecting Duplicates Using SQL Queries
 
 To fulfill Req-3 and Req-4, I wrote a series of SQL queries to identify duplicate records in multiple fields across the tables feed_1, feed_2, and feed_3. This was done using the GROUP BY and HAVING COUNT(*) > 1 logic, which helps highlight values that appear more than once—indicating potential data quality issues.
