@@ -84,6 +84,9 @@ feed_2 – considering fields like name, email or department as needed.
 
 feed_3 – based on relevant columns like name, email, or status.
 
+<img width="951" height="560" alt="Screenshot 2025-08-04 145528" src="https://github.com/user-attachments/assets/6fd14f61-64ea-4fc9-b398-061b4231060b" />
+
+
 This method ensures only one most recent record is retained per unique person across all feeds, effectively cleaning the database of redundant entries.
 
 sample output  after deleteing duplicates 
