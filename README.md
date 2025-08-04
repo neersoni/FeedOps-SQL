@@ -22,3 +22,8 @@ This project simulates real-world data feeds commonly found in customer manageme
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Step-wise Implementation (Req 1 to 10)
 
+# Requirement 1: Data Feed Table Creation and Population
+To begin the project, I have  created a clean and consistent table structure named feed_1, and cloned the same schema into feed_2 and feed_3. Each table includes 10 ,15 ,20 columns covering personal, professional, and system-related metadata such as name, email, location, department, designation, salary, status, timestamps, and remarks.
+i have also shared SQL query file as supporting doc for feed_1 , feed_2 , feed_3 also attaching snippet for one feed (feed_1) 
+
+
