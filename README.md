@@ -31,7 +31,7 @@ i have also shared SQL query file as supporting doc for feed_1 , feed_2 , feed_3
 <img width="446" height="418" alt="Screenshot 2025-08-04 112904" src="https://github.com/user-attachments/assets/48f04c3a-07b2-479b-8c1d-5820cee9653f" />
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Automation using create procedure function 
+#  Requirement 2 - Automation using create procedure function 
 ## In this part of the project, I used a CREATE PROCEDURE function to automate the process of inserting random data into the feed tables (feed_1, feed_2, feed_3).
 
 Instead of writing insert queries again and again for each table, I made a stored procedure where I just give two inputs:
