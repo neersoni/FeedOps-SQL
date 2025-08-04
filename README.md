@@ -28,5 +28,20 @@ i have also shared SQL query file as supporting doc for feed_1 , feed_2 , feed_3
 
 <img width="446" height="418" alt="Screenshot 2025-08-04 112904" src="https://github.com/user-attachments/assets/48f04c3a-07b2-479b-8c1d-5820cee9653f" />
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Automation using create procedure function 
+## In this part of the project, I used a CREATE PROCEDURE function to automate the process of inserting random data into the feed tables (feed_1, feed_2, feed_3).
+
+Instead of writing insert queries again and again for each table, I made a stored procedure where I just give two inputs:
+
+The feed table name
+
+The number of rows I want to generate
+
+After that, the procedure will handle everything on its own. It uses a loop to repeat the insert action and also randomly generates names, emails, phone numbers, dates, salary, and other column values. I used some built-in functions like RAND() and FLOOR() for that.
+
+To make the SQL dynamic, I used PREPARE, EXECUTE, and DEALLOCATE PREPARE — this helps run the query built inside the procedure. I also used CASE to randomly assign gender values like Male or Female.
+
+ Benefit: Now I don’t have to copy-paste insert queries again and again. I just call this procedure like this:
 
 
