@@ -1,2 +1,19 @@
 # FeedOps-SQL
 FeedOps-SQL is an end-to-end SQL automation project that generates random data feeds, identifies and cleans duplicate records, and performs cross-feed data comparisons. It includes SQL scripts, test plans, automation steps, and documentation to demonstrate practical SQL skills for real-world data operations.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Project Title: FeedOps-SQL
+##  Objective
+The objective of this project is to simulate a real-world data operations workflow using SQL. It covers the end-to-end process of generating synthetic data feeds with duplicates, identifying and removing those duplicates, comparing data across feeds, and implementing basic automation. This project showcases the practical application of DDL, DML, functions, and test scripting in PostgreSQL.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Database: PostgreSQL 15+ (Accessed via pgAdmin)
+
+IDE: Visual Studio Code (for SQL scripting and README documentation)
+
+Tools & Utilities:
+
+SQL functions, procedures, and triggers
+
+pgAdmin for database management
+
+GitHub for version control and project sharing
+
