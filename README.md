@@ -43,5 +43,7 @@ After that, the procedure will handle everything on its own. It uses a loop to r
 To make the SQL dynamic, I used PREPARE, EXECUTE, and DEALLOCATE PREPARE — this helps run the query built inside the procedure. I also used CASE to randomly assign gender values like Male or Female.
 
  Benefit: Now I don’t have to copy-paste insert queries again and again. I just call this procedure like this:
+**
+NOTE - I HAVE ALSO ATTACHED SQL CODE FOR AUTOMATION IN FILES **
 
 
