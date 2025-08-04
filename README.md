@@ -58,3 +58,35 @@ below are the 2 example of the result which i get after running duplicate query
 <img width="505" height="239" alt="Screenshot 2025-08-04 134827" src="https://github.com/user-attachments/assets/6c4b39af-247a-4ce3-a80f-35a5afa02deb" />
 <img width="437" height="292" alt="Screenshot 2025-08-04 134756" src="https://github.com/user-attachments/assets/153212b5-8e06-454a-9a61-2162143fbab6" />
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ # Requirement 5 & 6: Deleteing duplicates and geting output zero dupicates found in feed .
+ i want ensure data cleanliness and consistency across all three tables (feed_1, feed_2, and feed_3), I implemented duplicate removal using SQL's DELETE command combined with a GROUP BY and MAX(id) approach.
+
+The logic used was:
+
+sql
+Copy
+Edit
+DELETE FROM feed_1
+WHERE id NOT IN (
+    SELECT MAX(id)
+    FROM feed_1
+    GROUP BY name, email
+);
+This query deletes duplicate rows from the feed_1 table, keeping only the latest entry (highest id) for each unique combination of name and email. The assumption is that a combination of name and email uniquely identifies a person, so any repetition is considered a duplicate.
+
+The same approach was followed for:
+
+feed_2 – considering fields like name, email or department as needed.
+
+feed_3 – based on relevant columns like name, email, or status.
+
+This method ensures only one most recent record is retained per unique person across all feeds, effectively cleaning the database of redundant entries.
+
+sample output  after deleteing duplicates 
+
+<img width="743" height="382" alt="Screenshot 2025-08-04 140259" src="https://github.com/user-attachments/assets/858f7148-52d9-428b-9c1e-3dcae4e5b5e6" />
+
+
+ 
+
