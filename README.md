@@ -15,7 +15,9 @@ SQL functions, procedures, and triggers
 
 pgAdmin for database management
 
-GitHub for version control and project sharing
+Git hub version control and project sharing 
+
+ 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Dataset Details
 This project simulates real-world data feeds commonly found in customer management, HR, or ERP systems. Three structured datasets are generated as SQL tables — each with a different number of columns and rows, containing intentional duplicates to support deduplication and data validation operations.
