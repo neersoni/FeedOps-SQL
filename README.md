@@ -53,6 +53,9 @@ To make the SQL dynamic, I used PREPARE, EXECUTE, and DEALLOCATE PREPARE — thi
 
 To fulfill Req-3 and Req-4, I wrote a series of SQL queries to identify duplicate records in multiple fields across the tables feed_1, feed_2, and feed_3. This was done using the GROUP BY and HAVING COUNT(*) > 1 logic, which helps highlight values that appear more than once—indicating potential data quality issues.
 
+<img width="776" height="498" alt="Screenshot 2025-08-04 144405" src="https://github.com/user-attachments/assets/54ed1b45-956c-4d94-b3e2-d25ae9cd1739" />
+
+
 below are the 2 example of the result which i get after running duplicate query 
 
 <img width="505" height="239" alt="Screenshot 2025-08-04 134827" src="https://github.com/user-attachments/assets/6c4b39af-247a-4ce3-a80f-35a5afa02deb" />
