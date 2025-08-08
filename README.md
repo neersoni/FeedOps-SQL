@@ -98,6 +98,24 @@ after deleting duplicates from all the feed 1,2,3 i got duplicate find as zero
 <img width="498" height="207" alt="Screenshot 2025-08-04 143318" src="https://github.com/user-attachments/assets/b09a975f-2e90-4408-8b95-8e9f7a28a311" />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ # Requirement 7 Compare feed 1 from 2 , 3 
+ For this requirement, I compared the name field in feed_1 with the same field in feed_2 and feed_3 to check if they match.
+I used a LEFT JOIN so that all records from feed_1 are included in the result.
+Then, I applied CASE logic to label each as a Match or Mismatch.
+
+The final output shows:
+
+The name from each feed
+
+Whether feed_1’s name matches feed_2
+
+Whether feed_1’s name matches feed_3
+
+below attached screen shot of output
+<img width="1428" height="429" alt="Screenshot 2025-08-08 161208" src="https://github.com/user-attachments/assets/8715408a-21d2-4f4c-bc7d-8a6cb2ab4817" />
+
+
+
 
 
 
