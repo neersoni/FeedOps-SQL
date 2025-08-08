@@ -118,14 +118,14 @@ below attached screen shot of output
 # Requirement - 8  summary of project and documentation 
 Summary Table
 Step No.	Requirement	Action Taken	Query Executed	Remarks
- # 1	Data Creation  >>>	Created database and tables (feed_1, feed_2, feed_3)	>>> 	Structured schema defined
- # 2	Data Population Automation >>> Automated table population using stored function with random data generation	>>>> 	Dynamic & reusable
- # 3	Duplicate Identification  >>>	Identified duplicates based on name and email	>>> 	Prepared for cleanup
- # 4	Duplicate Removal >>> 	Removed duplicates keeping the latest entry (MAX(id)) >>> 	Ensured data integrity
- # 5	Data Merging >>>	Combined records from all feeds into a single consolidated table	>>> 	Used UNION logic
- # 6	Data Filtering	 >>> Extracted only specific criteria (e.g., city filter)	>>> 	Verified results
- # 7	Final Output Verification >>>	Checked the final dataset for correctness	>>> 	No anomalies found
- # 8	Documentation	Created >>> GitHub-ready README in markdown format	
+ ## 1	Data Creation  >>>	Created database and tables (feed_1, feed_2, feed_3)	>>> 	Structured schema defined
+ ## 2	Data Population Automation >>> Automated table population using stored function with random data generation	>>>> 	Dynamic & reusable
+ ## 3	Duplicate Identification  >>>	Identified duplicates based on name and email	>>> 	Prepared for cleanup
+ ## 4	Duplicate Removal >>> 	Removed duplicates keeping the latest entry (MAX(id)) >>> 	Ensured data integrity
+ ## 5	Data Merging >>>	Combined records from all feeds into a single consolidated table	>>> 	Used UNION logic
+ ## 6	Data Filtering	 >>> Extracted only specific criteria (e.g., city filter)	>>> 	Verified results
+ ## 7	Final Output Verification >>>	Checked the final dataset for correctness	>>> 	No anomalies found
+ ## 8	Documentation	Created >>> GitHub-ready README in markdown format	
  --------------------------------------------------------
 Key Notes
 This step does not involve SQL execution.
